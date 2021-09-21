@@ -21,6 +21,4 @@ Make
 
 Consider {upx.exe -9 *.exe} to compress it.
 
-This end. 
-
-
+This end.
