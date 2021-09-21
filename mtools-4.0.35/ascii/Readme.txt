@@ -15,7 +15,7 @@ one more time check config.h line:=54  HAVE_ICONV_H must be undefined
 Edit	Makefile
 line:=25 Add	USERCFLAGS = -ffunction-sections -fdata-sections
 line:=60 Add	LDFLAGS     = -Wl,--gc-sections -Wl,--strip-all
-line:=61 Add	LIBS        = -static -liconv
+line:=61 Add	LIBS        = -static
 
 Make
 
