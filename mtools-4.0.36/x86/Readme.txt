@@ -1,14 +1,12 @@
 Introduction
 
-This directory contains Uncompressed Programs than Compile with MinGW64. 
+This directory contains Uncompressed Programs than Compile with MinGW32. 
 
 Use method
 
 ./buildMingw.sh
-./configure --host=i686-w32-mingw32msvc --disable-floppyd --without-x 
 
-
-Edit	Makefile
+Edit	Makefile	(Not a necessary option)
 line:=25 Add	USERCFLAGS = -ffunction-sections -fdata-sections
 line:=60 Add	LDFLAGS     = -Wl,--gc-sections -Wl,--strip-all
 line:=61 Add	LIBS        = -static
